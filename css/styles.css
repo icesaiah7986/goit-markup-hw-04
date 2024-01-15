@@ -365,7 +365,7 @@ img {
 
 .client-section-header {
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   color: #2E2F42;
   margin-bottom: 72px;
   display: flex;
@@ -388,12 +388,12 @@ img {
 .client-link {
   width: 100%;
   height: 100%;
-  border: 1px solid #838f99;
-  border-radius: 5px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #838f99;
+  color: #8e8f99
 }
 
 .client-link:hover,
