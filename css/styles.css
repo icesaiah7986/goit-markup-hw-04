@@ -248,6 +248,16 @@ img {
   padding: 0;
 }
 
+.benefits-svg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 /* Third Section */
 
 .main-page-header {
