@@ -356,6 +356,64 @@ img {
   fill: #f4f4fd;
 }
 
+/* Fifth Section - Customers */
+
+.client-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.client-section-header {
+  font-size: 36px;
+  line-height: 1.11px;
+  color: #2E2F42;
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-list {
+  display: flex;
+  gap: 24px;
+}
+
+.client-item {
+  /* width: calc((100% - 120px) / 6);
+  flex-basis: calc((100% - 120px) / 6); */
+  width: 168px;
+  height: 88px;
+}
+
+.client-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #838f99;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #838f99;
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--ocean);
+  color: var(--ocean)
+}
+
+.client-svg {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
+.client-container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* Portfolio Main */
 
 .portfolio {
