@@ -298,7 +298,9 @@ img {
 .members {
   background-color: #FFFFFF;
   flex-basis: calc((100% - 72px ) / 4);
-  border-radius: 0 0 4px 4px;  
+  border-radius: 0 0 4px 4px; 
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 
 .employee {
@@ -345,9 +347,14 @@ img {
   background-color: var(--iris);
 }
 
-/* .team-social-svg {
-  fill: ;
-} */
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--ocean);
+}
+
+.team-social-svg {
+  fill: #f4f4fd;
+}
 
 /* Portfolio Main */
 
