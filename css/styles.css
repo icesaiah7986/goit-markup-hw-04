@@ -489,6 +489,10 @@ img {
   max-width: 264px;
 }
 
+.social-media-container {
+  margin-left: 120px;
+}
+
 .social-media-text {
   font-weight: 500;
   font-size: 16px;
@@ -512,6 +516,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .social-media-link:hover,
