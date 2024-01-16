@@ -466,6 +466,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: flex-start;
 }
 
 .footer-container .link {
@@ -485,7 +486,7 @@ img {
 }
 
 .social-media-text {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
   letter-spacing: 0.02em;
