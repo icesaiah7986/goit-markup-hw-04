@@ -131,12 +131,17 @@ img {
 
 .hero-image {
   background-color: var(--navy-blue);
-  padding: 188px 0;  
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
 }
 
 /* .hero-container {
@@ -404,7 +409,7 @@ img {
   display: inline-flex;
 }
 
-.filters-button {
+.filters .button {
   color: var(--iris);
   background-color: var(--cloud);
   padding: 12px 24px;
@@ -413,10 +418,9 @@ img {
 
 }
 
-.filters-button:hover,
-.filters-button:focus,
-.filters-active {
-  background-color: var(--ocean-color);
+.filters-item:hover, 
+.filters-item:focus {
+  background-color: var(#404bbf);
   color: var(--white-color);
   border-color: var(--ocean-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -455,10 +459,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-
-
-
-
 
 
 /* Footer Section */
