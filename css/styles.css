@@ -496,19 +496,15 @@ img {
 
 .page-footer .container {
   display: flex;
+  align-items: baseline;
+  gap: 120px;
+  
+
 }
 
-.footer-container .link {
-  display: inline-block;
-  margin-bottom: 16px;
-}
 
 .footer-logo-wrapper {
   align-items: flex-start;
-}
-
-.textlogo-footer {
-  color: #f4f4fd;
 }
 
 .footer-content {
@@ -518,9 +514,9 @@ img {
   max-width: 264px;
 }
 
-.social-media-container {
+/* .social-media-container {
   margin-left: 120px;
-}
+} */
 
 .social-media-text {
   font-weight: 500;
